@@ -1,0 +1,45 @@
+*{
+    background-color: black;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.body{
+    color: white;
+    font-size: 65px;
+    position: absolute;
+    top: 45%;
+    left: 8%;
+    display: flex;
+}
+
+.bodyLeft{
+    width: 50%;
+    
+}
+
+.bodyLeft p{
+    font-size: 15px;
+    padding-top: 8px;
+    
+}
+
+#colorGreen{
+    color: #5AFE73;
+}
+
+.bodyRight{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bodyRight img{
+    height: 350px;
+    width: 500px;
+    margin-left: 100px;
+    position: relative;
+    bottom: 30%;
+    border-radius: 80px;
+}
