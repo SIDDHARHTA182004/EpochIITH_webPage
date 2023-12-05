@@ -17,7 +17,6 @@ function navBar(){
                 <a href="">Contact</a>
             </div>
         </div>
-        
         </>
     );
 }

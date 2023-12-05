@@ -33,3 +33,15 @@ img{
 
 }
 
+@keyframes navRight{
+    0%{
+        transform: translateY(-300px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.main{
+    animation-name: navRight;
+    animation-duration: 2s;
+}

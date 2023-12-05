@@ -43,3 +43,18 @@
     bottom: 30%;
     border-radius: 80px;
 }
+
+@keyframes bodyLeft{
+    0%{
+        transform: translateX(-1100px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+.bodyLeft{
+    animation-name: bodyLeft;
+    animation-duration: 2s;
+}
+
