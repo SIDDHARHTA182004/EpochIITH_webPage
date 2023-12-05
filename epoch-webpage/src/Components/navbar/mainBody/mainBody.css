@@ -3,30 +3,35 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    
 }
 
 .body{
     color: white;
     font-size: 65px;
     position: absolute;
-    top: 45%;
-    left: 8%;
+    top: 50%;
+    left: 5%;
     display: flex;
+    background: none;
+    
 }
 
 .bodyLeft{
     width: 50%;
-    
+    background: none;
 }
 
 .bodyLeft p{
     font-size: 15px;
     padding-top: 8px;
+    background: none;
     
 }
 
 #colorGreen{
     color: #5AFE73;
+    background: none;
 }
 
 .bodyRight{
@@ -34,14 +39,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-.bodyRight img{
-    height: 350px;
-    width: 500px;
-    margin-left: 100px;
-    position: relative;
-    bottom: 30%;
-    border-radius: 80px;
+    background: none;
 }
 
 @keyframes bodyLeft{
@@ -56,5 +54,6 @@
 .bodyLeft{
     animation-name: bodyLeft;
     animation-duration: 2s;
+    background: none;
 }
 

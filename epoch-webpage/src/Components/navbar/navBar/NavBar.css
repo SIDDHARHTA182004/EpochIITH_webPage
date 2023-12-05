@@ -1,16 +1,23 @@
 *{
-    background-color: black;
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    
 }
 .main{
-    height: 110px;
+    height: 0px;
     width: 100%;
-    margin-top: 18px;
+    margin-top: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: none;
+}
+.main .right{
+    background: none;
+}
+.main .left{
+    background: none;
 }
 
 .main a{
@@ -19,18 +26,20 @@
     font-size: 20px;
     padding: 0 12px;
     margin-right: 20px;
+    background: none;
 }
 
 a:hover{
     color: white;
     font-size: 22px;
     text-decoration: underline;
+    background: none;
 }
 img{
     height: 150px;
     margin-left: 30px;
     margin-top: 20px;
-
+    background: none;
 }
 
 @keyframes navRight{
@@ -44,4 +53,5 @@ img{
 .main{
     animation-name: navRight;
     animation-duration: 2s;
+    background: none;
 }
