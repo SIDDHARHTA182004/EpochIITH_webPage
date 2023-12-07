@@ -1,5 +1,6 @@
 import React from "react";
 import './NavBar.css'
+import { Link } from "react-router-dom";
 
 function navBar(){
     return(
@@ -9,12 +10,12 @@ function navBar(){
                <a href="/"><img src="logo-removebg-preview.png" alt="" /></a>
             </div>
             <div className="right">
-                <a href="">Home</a>
-                <a href="">About</a>
-                <a href="">Projects</a>
-                <a href="">Events</a>
-                <a href="">Team</a>
-                <a href="">Contact</a>
+                <Link to="/">Home</Link>
+                <Link to="/about">About</Link>
+                <Link to="/projects">Projects</Link>
+                <Link to="/events">Events</Link>
+                <Link to="/team">Team</Link>
+                <Link to="/conatct">Contact</Link>
             </div>
         </div>
         </>
