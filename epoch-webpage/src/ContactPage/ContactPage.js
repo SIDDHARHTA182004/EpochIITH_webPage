@@ -32,7 +32,7 @@ function ContactPage() {
       {/* <BsWhatsapp className='contact_option-icon'/> */}
         <h4>Instagram</h4>
         <h5>Epoch</h5>
-        <a href="" rel="noreferrer" target="_blank">Text me here</a>
+        <a href="/" rel="noreferrer" target="_blank">Text me here</a>
       </article>
     </div>
   
