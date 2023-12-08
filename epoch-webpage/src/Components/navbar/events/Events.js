@@ -7,7 +7,7 @@ function Events() {
         Our <span id='colorGreen'>Events</span>
       </div>
       <div className='cardHolder'>
-        <a href='https://www.youtube.com' rel="noreferrer" target='_blank'>
+        
 
         <div className='card'>
           <div className='image'><img src='https://cdn2.vectorstock.com/i/1000x1000/88/26/no-image-available-icon-flat-vector-25898826.jpg' className='cardImage' alt=""></img></div>
@@ -16,8 +16,6 @@ function Events() {
             <b style={{background : 'none'}}>year</b> : 2020
           </div>
         </div>
-        </a>
-        <a href='https://www.youtube.com' rel="noreferrer" target='_blank'>
 
         <div className='card'>
           <div className='image'><img src='https://cdn2.vectorstock.com/i/1000x1000/88/26/no-image-available-icon-flat-vector-25898826.jpg' className='cardImage' alt=""></img></div>
@@ -26,8 +24,6 @@ function Events() {
             <b style={{background : 'none'}}>year</b> : 2020
           </div>
         </div>
-        </a>
-        <a href='https://www.youtube.com' rel="noreferrer" target='_blank'>
 
         <div className='card'>
           <div className='image'><img src='https://cdn2.vectorstock.com/i/1000x1000/88/26/no-image-available-icon-flat-vector-25898826.jpg' className='cardImage' alt=""></img></div>
@@ -36,8 +32,6 @@ function Events() {
             <b style={{background : 'none'}}>year</b> : 2020
           </div>
         </div>
-        </a>
-        <a href='https://www.youtube.com' rel="noreferrer" target='_blank'>
 
         <div className='card'>
           <div className='image'><img src='https://cdn2.vectorstock.com/i/1000x1000/88/26/no-image-available-icon-flat-vector-25898826.jpg' className='cardImage' alt=""></img></div>
@@ -46,7 +40,6 @@ function Events() {
             <b style={{background : 'none'}}>year</b> : 2020
           </div>
         </div>
-        </a>
         
       </div>
     </div>
