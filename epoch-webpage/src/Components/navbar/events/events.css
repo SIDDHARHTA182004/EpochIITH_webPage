@@ -28,11 +28,6 @@
     overflow: hidden;
     z-index: 1;
 }
-.card:hover{
-    position : relative;
-    top : -10px;
-    box-shadow: 0px 10px 3px grey;
-}
 .body{
     background: none;
     display: block;
