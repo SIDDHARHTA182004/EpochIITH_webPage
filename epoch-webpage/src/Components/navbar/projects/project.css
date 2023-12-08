@@ -55,7 +55,8 @@ a {
 }
 
 .cardContent {
-    font-size: 20px;
+    color: black;
+    font-size: 1.25rem;
     padding: 4px;
 }
 
@@ -95,7 +96,18 @@ a {
     }
 
     .card {
-        width: 50%;
-        height: 50%;
+        border-radius: 10px !important;
+        width: 150px !important;
+        height: 250px !important;
+    }
+    .cardImage{
+        height: 100px !important;
+    }
+    .cardContent{
+        font-size: 1rem;
+    }
+    .heading{
+        font-size: 3rem !important;
+        
     }
 }

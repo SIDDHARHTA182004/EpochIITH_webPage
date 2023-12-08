@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: none;
+    background: none;;
 }
 .right{
     width: 500px;
@@ -81,5 +81,8 @@ img{
     }
     a:hover{
         font-size: 1rem;
+    }
+    .heading{
+        margin-top: 20px;
     }
 }
