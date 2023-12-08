@@ -5,33 +5,33 @@
     
 }
 .main{
-    height: 0px;
+    height: 150px;
     width: 100%;
-    margin-top: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: none;
 }
-.main .right{
+.right{
+    width: 500px;
     background: none;
+    display: flex;
+    justify-content: space-around;
 }
-.main .left{
+.left{
     background: none;
 }
 
 .main a{
     text-decoration: none;
     color: #5AFE73;
-    font-size: 20px;
-    padding: 0 12px;
-    margin-right: 20px;
+    font-size: 1rem;
     background: none;
 }
 
 a:hover{
     color: white;
-    font-size: 22px;
+    font-size: 1rem;
     text-decoration: underline;
     background: none;
 }
@@ -54,4 +54,32 @@ img{
     animation-name: navRight;
     animation-duration: 2s;
     background: none;
+}
+@media screen and (max-width: 1450px) {
+    .main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .left{
+        display : flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .right{
+        width : 100vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    img{
+        height : 50px;
+        margin : 2px;
+    }
+    a{
+        font-size: 1rem;
+    }
+    a:hover{
+        font-size: 1rem;
+    }
 }
