@@ -15,7 +15,7 @@ function navBar(){
                 <Link to="/projects">Projects</Link>
                 <Link to="/events">Events</Link>
                 <Link to="/team">Team</Link>
-                <Link to="/conatct">Contact</Link>
+                <Link to="/contact">Contact</Link>
             </div>
         </div>
         </>
