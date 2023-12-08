@@ -1,11 +1,5 @@
+
 *{
-    background-color: black;
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
-    
-}
-.cardHolder{*{
     background-color: black;
     padding: 0%;
     margin: 0%;
@@ -93,13 +87,6 @@ a{
         transform: translateX(0px);
     }
 }
-
-    margin-top: 50px;
-    background: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
 .card{
     background: none;
     background-color: aliceblue;
@@ -166,5 +153,11 @@ a{
     }
     100%{
         transform: translateX(0px);
+    }
+}
+@media only screen and (max-width: 1450px){
+    .cardHolder{
+        display: flex;
+        flex-direction: column;
     }
 }
