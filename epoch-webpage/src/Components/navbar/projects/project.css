@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: black;
-}
-
 .cardHolder {
     margin-top: 50px;
     display: flex;
@@ -38,8 +34,7 @@ body {
 }
 
 .body {
-    width: 90%;
-    margin: 0 auto;
+    width: 100vw;
 }
 
 .cardImage {
@@ -108,6 +103,10 @@ a {
     }
     .heading{
         font-size: 3rem !important;
-        
+        top : -150px;
+    }
+    .body{
+        position: relative;
+        top: 200px;
     }
 }

@@ -60,6 +60,8 @@ img{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        position: absolute;
+        top: -20px;
     }
     .left{
         display : flex;
